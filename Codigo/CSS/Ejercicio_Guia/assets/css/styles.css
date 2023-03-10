@@ -1,0 +1,88 @@
+/* bloque de instrucciones con selector de etiquetas */
+
+
+
+body {
+  background: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #000000;
+}
+
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400px;
+}
+
+p {
+    font-weight: bold;
+}
+
+
+
+/* Ajustar en la primera seccion la imagen de fondo y su estilo, altura, relleno y tamaño letra */
+.header{
+    /* height: 20em; */
+    height: 6em;
+    padding: 3em; 
+    font-size: 2em; 
+    background-image: url("/assets/imgs/laura-arellano-WTZcIjyiLOc-unsplash.jpg");
+    background-size: cover; /* pueden probar con auto, inherit, contain */
+    background-position: center; /* pueden probar con left, right, top, bottom */
+    background-repeat: no-repeat;
+ }
+
+ .subtitulo {
+     margin-top: 0; margin-bottom: 0;
+ }    
+
+
+/* Aplicacion de Css para los productos */
+.imagen {
+    text-align: left;
+}    
+
+/* Centramos la sección de productos horizontalmente, dejando un margen de 10% a cada lado */
+.products {
+    width: 80%;
+    margin-left: 0;
+    /* border: 1px solid #000; */
+    /* Aplicar colapsar los bordes */
+   /*  border-collapse: collapse; */
+}
+
+/* Cada celda de la tabla va a tener un máximo de 50%, esto se calcula respecto al
+contenedor padre, como la caja de productos tiene un ancho de 80%, en la práctica
+cada celda tendrá un 50% de eso */
+.products td {
+    width: 50%;
+    padding: 0.5em;
+    /* border: 1px solid #000; */
+}
+
+/* Especificamos que las imágenes tendrán un ancho del 75%, pero nuevamente esto
+es respecto al tamaño del contenedor padre, en la práctica lo que esto logra es que si
+la imagen es de distinto tamaño al contenedor donde fue puesta, su tamaño se
+ajusta. */
+.products img{
+    width: 75%;
+    border: solid 1px none;
+}
+
+/* Aplicacion de Css para el footer */
+.footer{
+    /* cuando utilizamos height y line-height en conjunto y con el mismo valor podemos centrar verticalmente 
+    un texto de una sola línea. */
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(185, 112, 41);
+    color: white;
+    text-align: center;
+    font-weight:bolder;
+    }
+
+
+
+

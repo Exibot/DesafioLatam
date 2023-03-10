@@ -1,0 +1,39 @@
+/* bloque de instrucciones con selector de etiquetas */
+
+
+body {
+    color: red;
+}
+
+
+/* bloque de instrucciones con selector de clases */
+
+.verde {
+    color: green;
+    /* color: #000000; */
+    /* color: rgb(100, 150, 200); */
+    color: rgb(50%, 0%, 0%);
+}
+
+.blanco {
+    background-color: burlywood;
+    /* background-color: #00ffff; */
+    /* background-color: rgb(0, 0, 100); */
+    background-color: rgb(0%, 40%, 0%);
+
+}
+
+/* formato de margin top, rigth, bottom, left */
+.porcentaje {
+    /* margin: auto centra horizontalmente en el contenedor */
+    width: 80%;
+    margin: auto;
+    /* width: 40%; */
+    
+    /* margin aplicado a todos sus lados */
+    /* width: 80%; */
+    /* margin: 20% 0% 0 0% ; */
+    /* margin: 0% 20% 0 0%; */
+    /* margin: 0 0% 20% 0%; */
+    /* margin: 0 0% 0 20%; */
+} 

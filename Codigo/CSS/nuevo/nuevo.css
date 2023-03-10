@@ -1,0 +1,7 @@
+/* chequear con el inspector el modelo de cajas */
+div {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px
+    
+}
