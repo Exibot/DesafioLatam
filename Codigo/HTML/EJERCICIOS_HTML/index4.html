@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quinto Ejercicio</title>
+</head>
+<body>
+    <!-- Insertar imagen utilizando etiqueta Img, La <img> etiqueta HTML se utiliza para incrustar una imagen en una página web. Técnicamente, las imágenes no se insertan en una página web; las imágenes están vinculadas a páginas web. La <img>etiqueta crea un espacio de espera para la imagen de referencia. La <img>etiqueta está vacía, solo contiene atributos y no tiene una etiqueta de cierre.
+
+    La <img>etiqueta tiene dos atributos obligatorios:
+
+    src: especifica la ruta a la imagen
+    alt: especifica un texto alternativo para la imagen -->
+
+    <!-- usando una imagen que esta dentro de la misma carpeta del index -->
+    <p>1. Imagen en tamaño original</p>
+    <img src="images.jpeg" alt="Paisaje alpino" >
+
+    <!-- usando una imagen que esta dentro de una ruta especifica en una carpeta especifica-->
+    <p>2. Imagen en tamaño ajustado a 350 ancho y 175 alto</p>
+    <img src="assets/imgs/0ad44c.jpg"   alt="Paisaje alpino" >
+
+    <!-- usando una imagen que esta dentro de la misma carpeta del index, El atributo src
+    El src atributo requerido especifica la ruta (URL) a la imagen.
+
+    Nota: Cuando se carga una página web, es el navegador, en ese momento, el que obtiene la imagen de un servidor web y la inserta en la página. Por lo tanto, asegúrese de que la imagen realmente permanezca en el mismo lugar en relación con la página web, de lo contrario, sus visitantes obtendrán un ícono de enlace roto. El icono de enlace roto y el alt texto se muestran si el navegador no puede encontrar la imagen. -->
+    <p>3. Imagen no encontrada </p>
+    <img src="images1.jpeg" alt="Paisaje alpino, si ve esto no se ubico o cargó la imagen, revise el error" >
+
+    <!-- usando una imagen que esta dentro de la misma carpeta del index, ajustando la imagen con los atributos width y height en forma de cuadrado-->
+    <p>4. Imagen cuadrada con ancho y alto igual</p>
+    <img src="images.jpeg" alt="Paisaje alpino" width="200" height="200">
+
+
+     <!-- usando una imagen que esta dentro de la misma carpeta del index, ajustando la imagen con los atributos width y height en forma de rectangulo-->
+     <p>5. Imagen rectangular  con 300 ancho y 100 alto igual</p>
+    <img src="images.jpeg" alt="Paisaje alpino" width="300" height="100">
+   
+
+
+    <!-- uso de la etiqueta <a> para acceder a un link, en base a hipertexto. Los enlaces HTML son hipervínculos. Puede hacer clic en un enlace y saltar a otro documento. Cuando mueva el mouse sobre un enlace, la flecha del mouse se convertirá en una pequeña mano.  -->  
+    <p>6. Creando un enlace HTML</p>   
+    <a href="https://www.w3schools.com/">Visitar W3Schools.com!</a>
+
+    <!-- De forma predeterminada, la página vinculada se mostrará en la ventana actual del navegador. Para cambiar esto, debe especificar otro destino para el vínculo. 
+
+    El target atributo especifica dónde abrir el documento vinculado.
+    El target atributo puede tener uno de los siguientes valores:
+
+    _self- Por defecto. Abre el documento en la misma ventana/pestaña en la que se hizo clic
+    _blank- Abre el documento en una nueva ventana o pestaña -->
+
+    
+    <p>8. Creando un enlace HTML con _blank</p>   
+    <a href="https://www.w3schools.com/" target="_blank">Visitar W3Schools!</a>
+
+    <!-- <p>9. Creando un enlace HTML con target _parent</p>     
+    <a href="https://www.w3schools.com/" target="_parent">Visitar W3Schools!</a>
+
+    <p>10. Creando un enlace HTML con _top</p> 
+    <a href="https://www.w3schools.com/" target="_top">Visitar W3Schools!</a> -->
+
+
+
+
+    <!-- Primer Bloque del Documento con lista desordenada, viñeta por defecto circulos rellenos -->
+    <h2><ins>Lista de sitios para Conocimientos de Informatica</ins> </h2>
+    <h2><b>1. Desarrollo FrontEnd</b> </h2>
+    <p><b><i>Framework principales:</i></b></p>
+    <ul>
+        <li><a href="https://es.reactjs.org/">Visitar ReactJs oficial!</a></li>
+        <li><a href="https://vuejs.org/">Visitar VueJs oficial!</a></li>
+        <li><a href="https://angular.io/">Visitar AngularJs oficial!</a></li>
+    </ul>
+
+
+    <!-- URL absolutas frente a URL relativas
+    los ejemplos anteriores usan una URL absoluta (una dirección web completa) en el href atributo.
+
+    Un enlace local (un enlace a una página dentro del mismo sitio web) se especifica con una URL relativa (sin la parte "https://www", ni la ruta absoluta o completa del archivo)-->
+    <h2><b>2. Acceder Rutas Locales</b> </h2>
+    <p><b><i>Imagenes:</i></b></p>
+    <ul>
+        <li><a href="images.jpeg">Ver imagen del directorio principal</a></li>
+        <li><a href="/assets/imgs/ecbcc8.jpg">Ver imagen de una carpeta en la ruta /assets/imgs</a></li>
+    </ul>
+
+
+    
+
+    
+</body>
+</html>
