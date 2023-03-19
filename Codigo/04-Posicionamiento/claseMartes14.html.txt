@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #padre{
+            width:400px;
+            height: 400px;
+            background-color: blue;
+        }
+        #hijo0{
+            width: 350px;
+            height: 40px;
+            background-color: yellow;
+            display: inline-block;
+        }
+        #hijo{
+            width: 40px;
+            height: 40px;
+            background-color: red;
+            display: inline-block;
+        }
+        #hijo2{
+            width: 40px;
+            height: 80px;
+            background-color: green;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div id="padre">
+        <div id="hijo0"></div>
+        <div id="hijo"></div>
+        <div id="hijo2"></div>
+    </div>
+</body>
+</html>
