@@ -1,0 +1,14 @@
+body {
+    font-family: 'Roboto';
+}
+
+.navbar-brand img{
+	width: 86px;
+}
+
+.nav-link{
+    color: white !important;
+}
+.navbar-brand{
+    color: white !important;
+}
